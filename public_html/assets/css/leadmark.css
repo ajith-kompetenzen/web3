@@ -11315,11 +11315,11 @@ textarea.form-control {
 
 ::-webkit-scrollbar {
   width: 7px;
-  background: #fff;
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #ff5a29;
+  background: rgb(199, 27, 46);
   border-radius: 20px;
 }
 
@@ -11547,11 +11547,12 @@ textarea.form-control {
 }
 
 .section {
+  color: white;
   padding: 80px 0;
 }
 
 .section:nth-child(even) {
-  background: #f5f8fc;
+  background: rgb(199, 27, 46);
 }
 
 .section .section-devider {
@@ -11627,7 +11628,8 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  padding-top: 150px;
+  background: url(../imgs/logos/Ashs_logo.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
@@ -11724,6 +11726,7 @@ textarea.form-control {
   /* padding: 50px; */
   width: 400px;
   max-height: 500px;
+  /* border: 2px solid black; */
 }
 
 .portfolio-section .portfolio-container .portfolio-item .content-holder {
