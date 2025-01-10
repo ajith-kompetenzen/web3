@@ -59,6 +59,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+  background-color: rgb(122, 20, 32);
 }
 
 body {
@@ -4485,6 +4486,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+
 }
 
 .nav-tabs .nav-link {
@@ -11212,7 +11214,7 @@ textarea.form-control {
 }
 
 .navbar .navbar-brand img {
-  width: 60px;
+  width: 120px;
 }
 
 .navbar .nav-link {
@@ -11221,8 +11223,8 @@ textarea.form-control {
 }
 
 .navbar.custom-navbar {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .navbar.custom-navbar .nav-link {
@@ -11435,7 +11437,7 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgb(199, 27, 46);
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11473,7 +11475,7 @@ textarea.form-control {
 
 .header .shape svg {
   position: absolute;
-  bottom: -28px;
+
   left: 0;
   width: 100%;
   z-index: 9;
@@ -11485,7 +11487,7 @@ textarea.form-control {
 
 @media (max-width: 1199.98px) {
   .header .shape svg {
-    bottom: -15px;
+
   }
 }
 
@@ -11694,6 +11696,7 @@ textarea.form-control {
   color: #fff;
 }
 
+
 .portfolio-section .portfolio-container .portfolio-item {
   position: relative;
   padding-left: 0;
@@ -11701,6 +11704,26 @@ textarea.form-control {
   margin: 10px -5px;
   overflow: hidden;
   border-radius: 0;
+}
+
+.portfolio-section .portfolio-container .portfolio-item {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:500px ;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 10px -5px;
+  overflow: hidden;
+  border-radius: 0;
+  border: none;
+}
+.portfolio-section .portfolio-container .portfolio-item img{
+  /* padding: 50px; */
+  width: 400px;
+  max-height: 500px;
 }
 
 .portfolio-section .portfolio-container .portfolio-item .content-holder {
