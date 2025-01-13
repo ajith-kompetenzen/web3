@@ -11430,7 +11430,14 @@ textarea.form-control {
   background-size: cover;
   overflow: hidden;
 }
-
+.header .overlay  img{
+  width: 2000px;
+}
+@media (max-width :920px) {
+   .header .overlay  img{
+  width: 1000px;
+}
+}
 .header .overlay {
   position: absolute;
   left: 0;
