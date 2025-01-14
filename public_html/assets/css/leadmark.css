@@ -4974,7 +4974,8 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 2px solid rgb(255, 153, 0);
 }
 
 .navbar-light .navbar-toggler {
@@ -11728,12 +11729,17 @@ textarea.form-control {
   overflow: hidden;
   border-radius: 0;
   border: none;
+   /* box-shadow: 1px 1px 5px 2px black; */
+
 }
 .portfolio-section .portfolio-container .portfolio-item img{
   /* padding: 50px; */
   width: 400px;
   max-height: 500px;
   /* border: 2px solid black; */
+
+
+
 }
 
 .portfolio-section .portfolio-container .portfolio-item .content-holder {
