@@ -11839,4 +11839,8 @@ textarea.form-control {
     }
   }
 
-  
+   .carousel-inner img {
+    height: 700px;     
+    object-fit: scale-down; 
+    width: 100%; 
+  }
