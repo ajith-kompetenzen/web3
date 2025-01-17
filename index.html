@@ -88,11 +88,10 @@
         <div class="wheel"></div>
       </div>
       <!-- Add your video element here -->
-      <video autoplay muted loop class="header-video" >
+      <video autoplay muted loop class="header-video">
         <source
           src="./public_html/assets/imgs/eventpic/11.mp4"
           type="video/mp4"
-          
         />
         <!-- Add more video formats for better browser support if needed -->
         <source
@@ -307,7 +306,7 @@
         >
           <!-- Video 1 -->
           <div class="col-md-4 mb-4">
-            <video class="w-100 shadow-sm" controls>
+            <video class="w-100 shadow-sm" autoplay muted controls>
               <source
                 src="./public_html/assets/imgs/eventpic/13.mp4"
                 type="video/mp4"
@@ -318,7 +317,7 @@
 
           <!-- Video 2 -->
           <div class="col-md-4 mb-4">
-            <video class="w-100 shadow-sm" controls>
+            <video class="w-100 shadow-sm" autoplay muted controls>
               <source
                 src="./public_html/assets/imgs/eventpic/14.mp4"
                 type="video/mp4"
@@ -344,7 +343,7 @@
     <section class="section" id="blog">
       <div class="container">
         <h6 class="section-title mb-3 mt-3 text-center">Our Services</h6>
-        <h6 class="section-subtitle mb-5 text-center " style="line-height: 25px;">
+        <h6 class="section-subtitle mb-5 text-center" style="line-height: 25px">
           At ASHS, we offer a comprehensive suite of marketing services tailored
           to meet the unique needs of our clients. From crafting compelling
           digital campaigns to executing offline strategies, our expertise
@@ -352,40 +351,42 @@
           way.
         </h6>
 
-        
-<style>
-  .collage-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column size dynamically */
-    gap: 16px; /* Space between cards */
-  }
+        <style>
+          .collage-container {
+            display: grid;
+            grid-template-columns: repeat(
+              auto-fit,
+              minmax(300px, 1fr)
+            ); /* Adjust column size dynamically */
+            gap: 16px; /* Space between cards */
+          }
 
-  .collage-card {
-    border-radius: 2%;
-    overflow: hidden; /* Ensure images fit inside the card */
-  }
+          .collage-card {
+            border-radius: 2%;
+            overflow: hidden; /* Ensure images fit inside the card */
+          }
 
-  .collage-card img {
-    width: 100%;
-    height: 200px; /* Set a consistent height */
-    object-fit: cover; /* Ensure images fill the height and width */
-    border-radius: 2%;
-  }
+          .collage-card img {
+            width: 100%;
+            height: 200px; /* Set a consistent height */
+            object-fit: cover; /* Ensure images fill the height and width */
+            border-radius: 2%;
+          }
 
-  .collage-card .card-body {
-    padding: 12px;
-  }
+          .collage-card .card-body {
+            padding: 12px;
+          }
 
-  .collage-card h6 {
-    font-size: 1.2rem;
-    margin-bottom: 8px;
-  }
+          .collage-card h6 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+          }
 
-  .collage-card p {
-    font-size: 0.95rem;
-    margin-bottom: 0;
-  }
-</style>
+          .collage-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+          }
+        </style>
 
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-4">
@@ -913,7 +914,6 @@
             <p class="mb-1">+91 7012047185</p>
             <p class="mb-4">+91 9544434566</p>
 
-
             <h6 class="mb-0">Address</h6>
             <p class="mb-4">
               Cloud 9, 9th Cross Rd, above Starbucks, Avenue Road, Panampilly
@@ -978,7 +978,10 @@
 
         <!-- End of Page Footer -->
       </div>
-      <footer class="mt-5 py-4 border-top border-secondary pl-2" style="display: flex; align-items: center;justify-content: center; ">
+      <footer
+        class="mt-5 py-4 border-top border-secondary pl-2"
+        style="display: flex; align-items: center; justify-content: center"
+      >
         <p class="mb-0 small">
           &copy;
           <script>
