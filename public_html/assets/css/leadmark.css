@@ -61,6 +61,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
   background-color: rgb(122, 20, 32);
 }
+/* section .blog-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 
 body {
   margin: 0;
@@ -5082,6 +5087,7 @@ input[type="button"].btn-block {
 }
 
 .card-body {
+  color: #000;
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
@@ -11789,3 +11795,5 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
+
+
