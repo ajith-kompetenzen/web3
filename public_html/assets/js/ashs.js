@@ -1,18 +1,13 @@
 /*!
 =========================================================
-* LeadMark Landing page
+* ASHS Landing page
 =========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
+* Copyright: 2025 Kompetenzen Technologies (https://www.kompetenzen.in)
+* Coded by www.kompetenzen.in
 
 =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-
-// smooth scroll
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
 
